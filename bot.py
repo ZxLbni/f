@@ -6,11 +6,11 @@ import asyncio
 import threading
 
 # === CONFIG ===
-API_ID = 123456  # your API ID
-API_HASH = 'your_api_hash'
-SESSION_STRING = 'your_telethon_session_string'
-SOURCE_CHAT = 'source_chat_username_or_id'
-DEST_CHAT = 'your_channel_username_or_id'
+API_ID = 27743731  # your API ID
+API_HASH = 'f33b0ab78cbec9084e3668df0b3330ff'
+SESSION_STRING = '1BVtsOMABu7GaEVai-TiG-z1wM1GYgVrDbEM5fdM-4jLo1IgE5VN0A0j3e_xUzDjmank_mQWme6FT4Fgm8qMGhDP_JkUt2g5zd-MEctwIPhvqP7itvGZGjKmy3Vol8-jB7iYuio5PbJvGTXv4hJ6fqutS59WLwtlqbVet33mrS-2p3_LpUt8rqW6JeExu2OM0o0ZJPXH9Rs0jEOKEmhE9cccezMlaaZgm-3cgLCAxjXAj2cR0hWRx8jGD0zuBoEakrgjzTyOO2mGcFsOFrq1yvioEbSpfJSXXYTU1QCtBrvpomsm-waEyCOyXkxTWtQg_KoglPZ2kLZNq_f1_pNjEkBiLbX9gOX4='
+SOURCE_CHAT = '-1002448304352'
+DEST_CHAT = '-1002564411877'
 
 # === TELETHON CLIENT ===
 client = TelegramClient(StringSession(SESSION_STRING), API_ID, API_HASH)
